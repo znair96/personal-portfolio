@@ -25,6 +25,9 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import indiamart from "./company/indiamart.png";
+import pixis from "./company/pixis.png";
+import ninetynineacres from "./company/ninetynineacres.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -59,4 +62,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  pixis,
+  ninetynineacres,
+  indiamart,
 };

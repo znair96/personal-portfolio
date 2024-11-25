@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  indiamart,
+  ninetynineacres,
+  pixis,
 } from "../assets";
 
 export const navLinks = [
@@ -42,20 +45,12 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
@@ -104,67 +99,48 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Frontend Developer",
+    company_name: "Pixis",
+    icon: pixis,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Apr 2022 - Aug 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
+      "Enhanced user experience by 25% through scalable React.js frontend development across projects",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Increased user engagement by 25% by developing a customizable survey form for personalized survey generation",
+      "Automation Workflows: Built an end-to-end Agency Onboarding Automation tool, improving the onboarding process and allowing agencies to seamlessly create campaigns on the platform",
+      "Developed a customizable PDF Proposal Generator for agency use with the help of react-pdf library",
+      "Ad Accounts Integrations: Integrated social media APIs (Meta, Google) for brands to connect their accounts, improving campaign tracking and reporting capabilities",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "SDET",
+    company_name: "99Acres",
+    icon: ninetynineacres,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jun 2019 - Apr 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Revamped the agent details page and successfully migrated the frontend framework from Angular to ReactJS, resulting in a 25% increase in web app efficiency and user engagement.",
+      "Conducted thorough code reviews and actively collaborated with peers to improve code quality and project maintainability.",
+      "Mentored junior developers in frontend technologies, fostering a culture of collaboration and knowledge sharing within the team",
+      "Automated 100 test cases using POM framework, resulting in testing efficiency increase of 50%.",
+      "Improved testing efficiency by 20% by creating 20 automated test cases with Selenium.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Software Developer Intern",
+    company_name: "IndiaMart",
+    icon: indiamart,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Dec 2018 - Mar 2019",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Web Optimization: Developed and optimized multiple web projects using HTML, CSS, JavaScript, A JAX, jQuery, and SQL, reducing key business operation time by 10%",
+      "Improved processing efficiency by 15% resulting from enhancements to internal tools",
     ],
   },
 ];
